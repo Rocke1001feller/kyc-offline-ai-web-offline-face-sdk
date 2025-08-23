@@ -1,0 +1,58 @@
+{
+  "name": "kyc-offline-ai-web-offline-face-sdk",
+  "version": "1.0.5",
+  "description": "KYC offline AI web offline ai --- face SDK with detection, liveness, landmarks and face analysis",
+  "homepage": "https://kyc-offline-ai-web-offline.pages.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rocke1001feller/kyc-offline-ai-web-offline-face-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rocke1001feller/kyc-offline-ai-web-offline-face-sdk/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "face-detection",
+    "face-recognition",
+    "liveness-detection",
+    "onnx",
+    "opencv",
+    "webassembly",
+    "offline",
+    "kyc",
+    "ai",
+    "computer-vision"
+  ],
+  "author": "Rocke1001feller",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "lint": "eslint src --ext .js",
+    "test": "echo \"no tests\"",
+    "type-check": "echo \"no type-check\"",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "ndarray": "^1.0.19",
+    "ndarray-ops": "^1.2.2",
+    "onnxruntime-web": "^1.14.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-replace": "^5.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "eslint": "^8.0.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-copy": "^3.5.0"
+  }
+}
