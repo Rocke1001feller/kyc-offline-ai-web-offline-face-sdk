@@ -25,9 +25,12 @@ const basePlugins = [
   copy({
     targets: [
       { src: 'src/model/*', dest: 'dist/model' },
-      { src: 'src/js/*', dest: 'dist/js' },
+      { src: 'src/js/opencv*.js', dest: 'dist/js' },
+      { src: 'src/js/opencv_js.wasm', dest: 'dist/js' },
       // ship types to dist
       { src: 'src/types/index.d.ts', dest: 'dist', rename: () => 'index.d.ts' },
+      // copy service worker for caching (only to root)
+      { src: 'src/js/sw.js', dest: 'dist' },
     ],
     copyOnce: true,
   }),

@@ -1,6 +1,6 @@
 {
   "name": "kyc-offline-ai-web-offline-face-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "KYC offline AI web offline ai --- face SDK with detection, liveness, landmarks and face analysis",
   "homepage": "https://kyc-offline-ai-web-offline.pages.dev",
   "repository": {

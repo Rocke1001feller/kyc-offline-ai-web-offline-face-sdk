@@ -8,3 +8,4 @@ export * from "./lib/fr_age";
 export * from "./lib/fr_gender";
 export * from "./lib/fr_feature";
 export * from "./lib/load_opencv";
+export * from "./lib/model_loader";
