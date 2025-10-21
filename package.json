@@ -5,7 +5,7 @@
   "homepage": "https://kyc-offline-ai-web-offline.pages.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rocke1001feller/kyc-offline-ai-web-offline-face-sdk.git"
+    "url": "git+https://github.com/Rocke1001feller/kyc-offline-ai-web-offline-face-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/Rocke1001feller/kyc-offline-ai-web-offline-face-sdk/issues"
