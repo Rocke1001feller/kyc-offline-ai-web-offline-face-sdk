@@ -25,7 +25,7 @@ async function createSessionWithFallback(modelPath, options = {}) {
     modelPath,
     `https://unpkg.com/${pkgName}@${pkgVersion}/dist/model/${fileName}`,
     // `https://content-deliver.oss-cn-shanghai.aliyuncs.com/${pkgName}/${pkgVersion}/dist/model/${fileName}`,
-    `https://cdn-1320106354/kyc-offline-ai-web-offline-face-sdk/1.0.6/dist/model/${fileName}`,
+    `https://cdn-1320106354.cos.ap-shanghai.myqcloud.com/kyc-offline-ai-web-offline-face-sdk/1.0.6/dist/model/${fileName}`,
     `https://cdn.jsdelivr.net/npm/${pkgName}@${pkgVersion}/dist/model/${fileName}`,
   ];
 
