@@ -43,3 +43,5 @@ export function loadFeatureModel(): Promise<any>;
 export function extractFeature(session: any, canvasId: string, landmarks: number[][]): Promise<any[]>;
 export function extractFeatureBase64(session: any, base64Image: string, landmarks: number[][]): Promise<any[]>;
 export function matchFeature(feature1: number[], feature2: number[]): number;
+export function debugAlignment(originalImg: any, alignedImg: any, landmarks: number[], canvasId?: string): void;
+
